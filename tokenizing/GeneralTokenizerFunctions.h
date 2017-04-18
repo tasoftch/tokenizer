@@ -6,7 +6,7 @@
 //  Copyright © 2017 TASoft Applications. All rights reserved.
 //
 
-#import <PHPKit/TATokenNames.h>
+#import "TATokenNames.h"
 
 bool phpkit_is_character_whitespace(unichar cc);
 bool phpkit_is_character_string(unichar cc);
