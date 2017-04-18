@@ -33,7 +33,6 @@
 	return self;
 }
 - (NSArray *)tokenizeString:(NSString *)script {
-	printf("\n#############################################################\n");
 	return [self tokenizeString:script range:NSMakeRange(0, script.length)];
 }
 
