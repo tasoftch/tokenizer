@@ -69,5 +69,11 @@ enum {
 	TA_T_XML_DOC_TYPE				  = 107,
 	TA_T_XML_ENTITY					  = 108,
 	TA_T_XML_COMMENT				  = 109,
+	
+	TA_T_ENCAPSED_AND_WHITESPACE			  = 322,
+	TA_T_CONSTANT_ENCAPSED_STRING			  = 323,
+	
+	TA_T_NS_SEPARATOR				  = 390,
+	
 };
 typedef unsigned TATokenCode;
