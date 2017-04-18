@@ -78,7 +78,7 @@ TATokenCode phpkit_get_code_of_control_character(unichar cc) {
 		case '~': code = TA_T_TILDE; break;
 		case '{': code = TA_T_BLOCK_OPEN; break;
 		case '|': code = TA_T_VLINE; break;
-		case '}': code = TA_T_BLOCK_OPEN; break;
+		case '}': code = TA_T_BLOCK_CLOSE; break;
 		default: code = TA_T_UNKNOWN; break;
 	}
 	return code;
