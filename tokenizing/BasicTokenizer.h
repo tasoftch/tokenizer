@@ -13,12 +13,12 @@
 #define MaxTokenBuffer 1000
 
 void phpkit_basic_tokenize(
-						   unichar *script,
-						   unsigned length,
-						   TALevelTokenizer *initialTokenizer,
-						   int options,
-						   void(^outHandler)(struct _Token token, unichar *content, unsigned length)
-						   );
+	unichar *script,
+	unsigned length,
+	TALevelTokenizer *initialTokenizer,
+	int options,
+	void(^outHandler)(struct _Token token, unichar *content, unsigned length)
+);
 
 typedef struct {
 	unichar *string;
